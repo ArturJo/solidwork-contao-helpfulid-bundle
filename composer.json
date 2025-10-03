@@ -1,0 +1,28 @@
+{
+  "name": "solidwork/contao-helpfulid-bundle",
+  "description": "This contao bundle adds helpful IDs to backend (pages, articles and modules)",
+  "type": "contao-bundle",
+  "license": "LGPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "SolidWork\\ContaoHelpfulidBundle\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Artur Jozefiak"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "contao/core-bundle": "^5.3"
+  },
+
+  "config": {
+    "allow-plugins": {
+      "contao-components/installer": true,
+      "php-http/discovery": true
+    }
+  }
+
+}
