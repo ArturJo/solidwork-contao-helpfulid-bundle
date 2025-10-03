@@ -28,5 +28,8 @@
       "contao-components/installer": true,
       "php-http/discovery": true
     }
+  },
+  "extra": {
+    "contao-manager-plugin": "SolidWork\\ContaoHelpfulidBundle\\ContaoManager\\Plugin"
   }
 }
