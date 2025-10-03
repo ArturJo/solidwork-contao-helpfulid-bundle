@@ -1,6 +1,6 @@
 {
   "name": "solidwork/contao-helpfulid-bundle",
-  "description": "This contao bundle adds helpful IDs to backend (pages, articles and modules)",
+  "description": "Helpful Contao bundle that shows the internal IDs of articles, content elements and modules in the backend for easier debugging and development.",
   "type": "contao-bundle",
   "license": "LGPL-3.0-or-later",
   "autoload": {
