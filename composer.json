@@ -17,12 +17,16 @@
     "php": ">=8.1",
     "contao/core-bundle": "^5.3"
   },
-
+  "repositories": {
+    "solidwork/contao-helpfulid-bundle": {
+      "type": "path",
+      "url": "https://github.com/ArturJo/solidwork-contao-helpfulid-bundle.git"
+    }
+  },
   "config": {
     "allow-plugins": {
       "contao-components/installer": true,
       "php-http/discovery": true
     }
   }
-
 }
