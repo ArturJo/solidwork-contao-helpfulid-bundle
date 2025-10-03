@@ -1,5 +1,7 @@
 <?php
-// src/ContaoExampleBundle.php
+
+declare(strict_types=1);
+
 namespace SolidWork\ContaoHelpfulidBundle;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;

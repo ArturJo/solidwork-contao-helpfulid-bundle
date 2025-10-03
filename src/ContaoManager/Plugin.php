@@ -1,5 +1,7 @@
 <?php
-// src/ContaoManager/Plugin.php
+
+declare(strict_types=1);
+
 namespace SolidWork\ContaoHelpfulidBundle\ContaoManager;
 
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
